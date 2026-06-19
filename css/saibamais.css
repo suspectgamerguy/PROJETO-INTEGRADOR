@@ -1,0 +1,153 @@
+*{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Georgia, serif;
+            background-color:#f2f2f2;
+            color:#333;
+                background-image: url('https://wallpaperaccess.com/full/3352658.jpg'); 
+        }
+
+        header{
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        main{
+            max-width:1000px;
+            margin:40px auto;
+            padding:20px;
+        }
+
+        section{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            margin-bottom:25px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#1b8546;
+            margin-bottom:15px;
+        }
+
+        p{
+            line-height:1.7;
+            margin-bottom:15px;
+        }
+
+        ul{
+            margin-left:25px;
+            line-height:1.8;
+        }
+
+        .pix{
+            background:#e8f5e9;
+            padding:20px;
+            border-radius:10px;
+            text-align:center;
+            margin-top:20px;
+        }
+
+        .btn-voltar{
+            display:inline-block;
+            margin-top:20px;
+            background:#146636;
+            color:white;
+            text-decoration:none;
+            padding:12px 30px;
+            border-radius:8px;
+            transition:0.3s;
+        }
+
+        .btn-voltar:hover{
+            background:#1b8546;
+        }
+
+        footer{
+    background:#000;
+    color:#aaa;
+    text-align:center;
+    padding:30px;
+}
+    
+.footer {
+    background: black;
+    color: white;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-column h3 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    color: #b7c2cc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: white;
+    padding-left: 5px;
+}
+
+.contato {
+    text-align: right;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logo span {
+    color: white;
+}
+
+.contato p {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #9daab5;
+    font-size: 14px;
+}
