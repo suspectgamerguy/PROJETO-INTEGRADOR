@@ -134,29 +134,24 @@ body{
 }
 
 .help{
-    background:#111;
+    background:#111111;
     color:white;
+    list-style: none;
+    padding: 100px;
 }
 
 .help h2{
     color:white;
 }
 
-.help-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-    margin-top:50px;
-}
-
 .final{
     text-align:center;
-    background:#0f7a3a;
+    background: rgb(22, 22, 22);
     color:white;
 }
 
 .final h2{
-    color:white;
+    color:white
 }
 
 footer{
@@ -168,7 +163,7 @@ footer{
 
 .footer-container {
     width: 90%;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: auto;
     display: flex;
     justify-content: space-between;

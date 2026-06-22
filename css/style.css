@@ -34,7 +34,7 @@ body{
 
 .navbar{
     width: 75%;
-    max-width: 1000px;
+    max-width: 1200px;
 
     background: white;
 
@@ -77,9 +77,7 @@ body{
 .logo img{
     width: 60px;
     height: 60px;
-    
     border-radius: 50%;
-    display: block ;
 }
 
 .logo {
@@ -360,7 +358,7 @@ a{
 
 .footer-container {
     width: 90%;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: auto;
     display: flex;
     justify-content: space-between;
