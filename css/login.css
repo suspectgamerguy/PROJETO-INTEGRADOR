@@ -137,3 +137,29 @@ body {
   border-color: #0066cc;
   box-shadow: 0 0 8px rgba(0, 102, 204, 0.2);
 }
+
+.back-arrow{
+    position:fixed;
+    top:25px;
+    left:25px;
+    width:55px;
+    height:55px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:rgba(0,0,0,0.75);
+    color:#fff;
+    text-decoration:none;
+    font-size:28px;
+    font-weight:bold;
+    border-radius:50%;
+    transition:0.3s;
+    z-index:999;
+}
+
+.back-arrow:hover{
+    transform:translateX(-4px) scale(1.08);
+    background:#fff;
+    color: green;
+}
+

@@ -229,6 +229,7 @@ footer{
     color: #9daab5;
     font-size: 14px;
 }
+
 @media(max-width:900px){
 
 .hero h1{
@@ -307,3 +308,4 @@ footer{
     cursor: pointer;
     
 }
+
