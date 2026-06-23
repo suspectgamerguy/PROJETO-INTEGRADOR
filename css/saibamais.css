@@ -151,3 +151,157 @@
     color: #9daab5;
     font-size: 14px;
 }
+/* TABLETS */
+@media (max-width: 900px){
+
+    .hero{
+        min-height: 60vh;
+        padding: 40px 20px;
+    }
+
+    .hero h1{
+        font-size: 2.2rem;
+    }
+
+    .hero p{
+        font-size: 1rem;
+    }
+
+    .stats-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .cards-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .split{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .section h2{
+        font-size: 2.2rem;
+    }
+
+    .contato{
+        text-align: center;
+    }
+
+    .footer-container{
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* CELULARES */
+@media (max-width: 768px){
+
+    .container{
+        width: 95%;
+    }
+
+    .hero{
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .hero h1{
+        font-size: 1.8rem;
+    }
+
+    .hero p{
+        font-size: 0.95rem;
+    }
+
+    .section{
+        padding: 60px 0;
+    }
+
+    .section h2{
+        font-size: 1.8rem;
+    }
+
+    .stat-card{
+        padding: 25px;
+    }
+
+    .stat-number{
+        font-size: 3rem;
+    }
+
+    .card img{
+        height: 220px;
+    }
+
+    .help{
+        padding: 50px 20px;
+    }
+
+    .footer-column{
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .logo{
+        font-size: 32px;
+    }
+
+    .contato{
+        text-align: center;
+    }
+
+    .back-arrow{
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+        top: 15px;
+        left: 15px;
+    }
+
+    #btn-topo{
+        width: 45px;
+        height: 45px;
+        font-size: 1.2rem;
+    }
+}
+
+/* CELULARES PEQUENOS */
+@media (max-width: 480px){
+
+    .hero h1{
+        font-size: 1.5rem;
+    }
+
+    .hero p{
+        font-size: 0.9rem;
+    }
+
+    .section h2{
+        font-size: 1.5rem;
+    }
+
+    .stat-number{
+        font-size: 2.5rem;
+    }
+
+    .stat-card{
+        padding: 20px;
+    }
+
+    .card-content{
+        padding: 18px;
+    }
+
+    .help{
+        padding: 40px 15px;
+    }
+
+    footer{
+        padding-top: 30px;
+    }
+
+    .footer-column h3{
+        font-size: 22px;
+    }
+}
