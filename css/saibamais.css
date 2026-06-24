@@ -8,7 +8,7 @@
             font-family: Georgia, serif;
             background-color:#f2f2f2;
             color:#333;
-                background-image: url('https://wallpaperaccess.com/full/3352658.jpg'); 
+                background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFwZWwlMjBkZSUyMHBhcmVkZSUyMGZsb3Jlc3RhfGVufDB8fDB8fHww'); 
         }
 
         header{
@@ -44,6 +44,7 @@
         ul{
             margin-left:25px;
             line-height:1.8;
+            list-style: none;
         }
 
         .pix{
@@ -52,21 +53,6 @@
             border-radius:10px;
             text-align:center;
             margin-top:20px;
-        }
-
-        .btn-voltar{
-            display:inline-block;
-            margin-top:20px;
-            background:#146636;
-            color:white;
-            text-decoration:none;
-            padding:12px 30px;
-            border-radius:8px;
-            transition:0.3s;
-        }
-
-        .btn-voltar:hover{
-            background:#1b8546;
         }
 
         footer{
@@ -304,4 +290,29 @@
     .footer-column h3{
         font-size: 22px;
     }
+}
+
+.back-arrow{
+    position:fixed;
+    top:25px;
+    left:25px;
+    width:55px;
+    height:55px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:rgba(0,0,0,0.75);
+    color:#fff;
+    text-decoration:none;
+    font-size:28px;
+    font-weight:bold;
+    border-radius:50%;
+    transition:0.3s;
+    z-index:999;
+}
+
+.back-arrow:hover{
+    transform:translateX(-4px) scale(1.08);
+    background:#fff;
+    color: green;
 }
