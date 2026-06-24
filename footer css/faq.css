@@ -38,10 +38,6 @@ body {
     border-bottom: none;
 }
 
-.faq-item ul{
-    list-style: none;
-}
-
 summary {
     padding: 15px 10px;
     font-size: 1.1rem;
@@ -65,7 +61,7 @@ details[open] summary::after {
     content: '-';
 }
 
-/* A resposta (texto oculto por padrão) */
+/*Resposta*/
 .faq-item p {
     padding: 10px 10px 20px 10px;
     color: #000000;
