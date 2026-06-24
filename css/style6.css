@@ -144,6 +144,7 @@ body{
     text-align:center;
     margin-bottom:50px;
     font-size:3rem;
+    cursor: default;
 }
 
 .theme-cards{
@@ -156,7 +157,7 @@ body{
     background:#132338;
     padding:30px;
     border-radius:18px;
-    transition:.3s;
+    
 }
 
 .theme:hover{
