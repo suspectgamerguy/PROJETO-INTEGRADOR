@@ -10,13 +10,14 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
+    font-family: Georgia, serif;
 }
 
 body{
     background:#071018;
     color:white;
     overflow-x:hidden;
+    font-family: Georgia, serif;
 }
 
 /* HERO */
@@ -262,6 +263,28 @@ body{
     border-top: 1px solid rgba(255,255,255,0.1);
     color: #9daab5;
     font-size: 14px;
+}
+
+#social {
+    margin-top: 0; 
+    cursor: default; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#social h3 {
+    margin-bottom: 20px; 
+}
+
+#social ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 15px;
+    padding: 0;
+    margin-top: 15px; 
+    list-style: none;
 }
 
 
